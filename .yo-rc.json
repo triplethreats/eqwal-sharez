@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "EkwalSharez",
+    "packageName": "dev.triplethreats.ekwalsharez",
+    "packageFolder": "dev/triplethreats/ekwalsharez",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "fr",
+      "en"
+    ],
+    "clientFramework": "react",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.0",
+    "jwtSecretKey": "Nzc1ZTJkNWU1N2UyM2I0NGE4YWM5ZjJjYTRhZjQyOGE2MWUwYzg5ODE2NTc0MzhjZTkwM2M0Y2YyNmZmNTUyYTEyMWZjYmJhMmVjMGE1MjAxNmUxZmJmNGZkNGZlMmM2Y2YwMmRjY2E0MGZjM2U5N2E0NDc2NDZkZDExOWMwOWU=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "triplethreats",
+  "repository-name": "eqwal-sharez"
+}
