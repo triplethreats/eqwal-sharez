@@ -402,7 +402,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>${start-class}</mainClass>
+                    <mainClass>dev.triplethreats.ekwalsharez.EkwalSharezApp</mainClass>
                     <executable>true</executable>
                     <fork>true</fork>
                     <!--
@@ -884,7 +884,7 @@
                         <groupId>org.springframework.boot</groupId>
                         <artifactId>spring-boot-maven-plugin</artifactId>
                         <configuration>
-                            <mainClass>${start-class}</mainClass>
+                            <mainClass>dev.triplethreats.ekwalsharez.EkwalSharezApp</mainClass>
                             <executable>true</executable>
                         </configuration>
                         <executions>
@@ -942,10 +942,6 @@
                             </execution>
                         </executions>
                     </plugin>
-                    <plugin>
-                        <groupId>pl.project13.maven</groupId>
-                        <artifactId>git-commit-id-plugin</artifactId>
-                    </plugin>
                 </plugins>
             </build>
             <properties>
@@ -960,7 +956,6 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-war-plugin</artifactId>
-                        <version>${maven-war-plugin.version}</version>
                         <executions>
                             <execution>
                                 <goals>
